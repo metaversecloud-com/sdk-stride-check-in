@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="No logo available">
+  <defs>
+    <pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#e4e4e7" stroke-width="2"></line>
+    </pattern>
+  </defs>
+
+  <rect width="200" height="200" rx="12" fill="#fafafa" stroke="#e4e4e7"></rect>
+
+  <rect x="24" y="24" width="152" height="120" rx="8" fill="url(#diagonalHatch)" stroke="#e4e4e7"></rect>
+
+  <line x1="24" y1="24" x2="176" y2="144" stroke="#d4d4d8" stroke-width="2"></line>
+  <line x1="176" y1="24" x2="24" y2="144" stroke="#d4d4d8" stroke-width="2"></line>
+
+  <text x="100" y="175" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-size="13" letter-spacing="0.04em" fill="#9ca3af">
+    NO LOGO AVAILABLE
+  </text>
+</svg>
